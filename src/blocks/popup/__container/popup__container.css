@@ -1,0 +1,18 @@
+@import url(./_type/popup__container_type_error.css);
+.popup__container {
+  width: 430px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: white;
+  z-index: 2;
+  position: relative;
+}
+
+@media (max-width: 590px) and (min-width: 300px) {
+  .popup__container {
+    max-width: 240px;
+  }
+}

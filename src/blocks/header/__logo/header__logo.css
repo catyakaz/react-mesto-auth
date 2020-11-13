@@ -1,0 +1,7 @@
+@media (max-width: 900px)  and (min-width: 300px) {
+    .header__logo {
+        width: 103px;
+        height: 24px;
+        margin-left: 27px;
+    }
+}

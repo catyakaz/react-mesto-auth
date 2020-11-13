@@ -1,0 +1,12 @@
+@import url(./__image/element__image.css);
+@import url(./__trash/element__trash.css);
+@import url(./__trash-button_visible/element__trash-button_visible.css);
+@import url(./__group/element__group.css);
+@import url(./__name/element__name.css);
+@import url(./__like/element__like.css);
+@import url(./__like-count/element__like-count.css);
+@import url(./__like-group/element__like-group.css);
+
+.element {
+    position: relative;
+}

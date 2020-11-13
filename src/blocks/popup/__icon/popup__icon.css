@@ -1,0 +1,9 @@
+@import url(./_type/popup__icon_type_success.css);
+@import url(./_type/popup__icon_type_fail.css);
+
+.popup__icon {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}

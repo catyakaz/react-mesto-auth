@@ -1,0 +1,5 @@
+.element__like-count {
+    color: #000000;
+    display: flex;
+    align-self: center;
+}

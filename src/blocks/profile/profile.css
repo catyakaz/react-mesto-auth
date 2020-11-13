@@ -1,0 +1,32 @@
+@import url(./__avatar/profile__avatar.css);
+@import url(./__info/profile__info.css);
+@import url(./__name/profile__name.css);
+@import url(./__about/profile__about.css);
+@import url(./__edit-button/profile__edit-button.css);
+@import url(./__add-button/profile__add-button.css);
+@import url(./__plus/profile__plus.css);
+@import url(./__avatar-edit/profile__avatar-edit.css);
+
+
+.profile {
+    max-width: 882px;
+    max-height: 120px;
+    margin: 40px auto 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .profile {
+        max-width: 590px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 599px) {
+    .profile {
+        min-height: 286px;
+        max-width: 282px;
+        flex-direction: column;
+    }
+}

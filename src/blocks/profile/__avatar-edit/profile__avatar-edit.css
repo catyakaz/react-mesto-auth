@@ -1,0 +1,10 @@
+.profile__avatar-edit:hover {
+   background:  url(../../../images/rename.png)  no-repeat;
+   background-position: center;
+   /* background-repeat: ; */
+   /* opacity: .6; */
+   display: flex;
+   /* margin: auto; */
+   align-self: center; 
+   color: black;
+}

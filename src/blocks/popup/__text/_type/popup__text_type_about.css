@@ -1,0 +1,13 @@
+.popup__text_type_about{
+    margin-top: 30px;
+    /* margin-bottom: 48px; */
+    padding-bottom: 14px;
+}
+
+.popup__text_type_about::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}

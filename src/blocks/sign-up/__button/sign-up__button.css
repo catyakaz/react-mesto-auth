@@ -1,0 +1,21 @@
+.sign-up__button {
+  background-color: #ffffff;
+  display: block;
+  width: 358px;
+  color: black;
+  height: 50px;
+  margin: 0 auto;
+  border: none;
+  margin-bottom: 37px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 213px;
+  margin-bottom: 0;
+}
+
+.sign-up__button:hover {
+  cursor: pointer;
+}

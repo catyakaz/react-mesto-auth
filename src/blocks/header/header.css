@@ -1,0 +1,17 @@
+@import url(./__logo/header__logo.css);
+@import url(./__line/header__line.css);
+@import url(./__elements/header__elements.css);
+@import url(./__user/header__user.css);
+@import url(./__email/header__email.css);
+
+.header {
+  max-width: 882px;
+  margin: 45px auto 0;
+}
+
+@media (max-width: 320px) {
+  .header {
+    max-width: 100%;
+    margin: 28px 0 0;
+  }
+}

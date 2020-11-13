@@ -1,0 +1,20 @@
+.element__like {
+    background-image: url(../../../images/hurt.png);
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 21px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-self: center;
+    /* padding-right: 30px; */
+}
+
+.element__like:hover {
+    opacity: .6;
+    cursor: pointer;
+}
+
+.element__like:focus {
+    outline: 0;
+}

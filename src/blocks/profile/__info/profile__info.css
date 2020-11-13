@@ -1,0 +1,21 @@
+.profile__info {
+    margin-left: 30px;
+    max-height: 77px;
+    display: grid;
+    grid-template-columns: 295px 1fr;
+    grid-template-areas: "name edit-button"
+                          "about .";
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .profile__info {
+        grid-template-columns: 200px 1fr;
+    }
+} 
+
+@media (max-width: 599px) and (min-width: 300px) {
+    .profile__info {
+        margin: 10px auto 36px;
+        grid-template-columns: auto 1fr;
+    }
+}
