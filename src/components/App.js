@@ -30,13 +30,20 @@ function App() {
   function tokenCheck() {
     const token = localStorage.getItem('token');
     if (token) {
-      apiAuth.getContent(token).then((res) => {
-        if (res) {
-          setLoggedIn(true);
-          setEmail(res.data.email);
-        }
-        setLoading(false);
-      });
+      apiAuth
+        .getContent(token)
+        .then((res) => {
+          if (res) {
+            setLoggedIn(true);
+            setEmail(res.data.email);
+          }
+        })
+        .catch((err) => {
+          console.log(err);
+        })
+        .finally(() => {
+          setLoading(false);
+        });
     } else {
       setLoading(false);
     }
