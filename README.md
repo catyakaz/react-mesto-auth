@@ -8,7 +8,7 @@
 
 ### Стек
 
-HTML5, CCS3 и Nested БЭМ и React.
+HTML5, CCS3, Nested БЭМ и React.
 
 ### Инструкция по развертыванию
 
